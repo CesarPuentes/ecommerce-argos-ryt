@@ -28,7 +28,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier \"**/*.{js,jsx,scss,graphql}\" --write"
+    "format": "prettier \"**/*.{js,jsx,scss,graphql}\" --write",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
   },
   "eslintConfig": {
     "extends": "react-app"
