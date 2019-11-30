@@ -10,6 +10,8 @@ import CartProvider from "./providers/cart/cart.provider.jsx";
 import "./index.css";
 import App from "./App";
 
+
+
 ReactDOM.render(
   <CartProvider>
     <Provider store={store}>
